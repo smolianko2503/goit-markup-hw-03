@@ -25,7 +25,30 @@
 
 .header {
   background-color: var(--hader-bg-cl);
+ 
 }
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid red;
+  outline-offset: -2px;
+  display: flex;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+
+
 .logo-link {
   font-family: var(--secondary-font);
   font-weight: 700;
@@ -34,6 +57,11 @@
   letter-spacing: 0.03em;
   color: #000000;
   text-decoration: none;
+  margin-top: 24px;
+  margin-right: 94px;
+  margin-bottom: 25px;
+  margin-left: 215px;
+ 
 }
 .logo-header {
   font-weight: 700;
@@ -44,12 +72,23 @@
 }
 
 .main-nav {
+  margin-right: auto;
 }
 .nav-list {
   list-style: none;
+  display: flex;
+  gap: 50px;
+  lign-items: center;
 }
 .nav-list-item {
+
 }
+
+.nav-list,
+.contacts-list {
+
+}
+
 
 .nav-link {
   text-decoration: none;
@@ -65,6 +104,13 @@
   color: var(--accent-txt-cl);
 }
 
+.nav-link,
+.contacts-link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
+}
+
 .nav-link-studio {
   font-weight: 500;
   font-size: 14px;
@@ -75,6 +121,10 @@
 
 .contacts-list {
   list-style: none;
+  display: flex;
+  gap: 50px;
+align-items: center;
+  margin-right: 215px;
 }
 
 .contacts-list-item {
@@ -108,6 +158,9 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-txt-cl);
+  margin-top: 200px;
+  margin-right: 452px;
+  margin-left: 452px;
 }
 
 .hat-btn {
@@ -119,9 +172,22 @@
   color: var(--white-txt-cl);
   background-color: var(--accent-txt-cl);
   cursor: pointer;
+  margin-top: 30px;
+  margin-right: 692px;
+  margin-bottom: 200px;
+  margin-left: 692px;
+}
+
+.container-hat {
+ 
+  
 }
 
 .characteristic {
+width: 1170px;
+margin-left: auto;
+margin-right: auto;
+
 }
 
 .characteristic-title {
@@ -130,6 +196,7 @@
 
 .characteristic-list {
   list-style: none;
+  display: flex;
 }
 
 .characteristic-list-item {
@@ -151,6 +218,8 @@
 }
 
 .work {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .work-title {
@@ -159,10 +228,13 @@
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 .work-list {
   list-style: none;
+  display: flex;
+  gap: 30px;
 }
 
 .work-list-item {
@@ -172,6 +244,8 @@
 }
 
 .team {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team-title {
@@ -184,6 +258,10 @@
 
 .team-list {
   list-style: none;
+  display: flex;
+  gap: 30px;
+  
+
 }
 
 .team-list-item {
@@ -213,6 +291,20 @@
 
 .footer {
   background-color: var(--main-bg-cl);
+  width: 1600px;
+  height: 252px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.footer-container {
+  display: block;
+  width: 1600px;
+  height: 252px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  padding-left: 215px;
+
 }
 
 .logo-footer-link {
@@ -225,13 +317,21 @@
   color: var(--white-txt-cl);
 }
 
+
 address {
   font-style: normal;
+  
 }
 
 .address-list {
   list-style: none;
+  padding-left: 0;
+  margin: 0;
+
+
 }
+
+
 
 .address-link {
   font-size: 14px;
@@ -241,11 +341,50 @@ address {
   text-decoration: none;
 }
 
-.contacts-link {
+.contacts-footer-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* portfolio */
+
+
+.container-portfolio {
+  width: 1200px;
+  
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+   
+
+}
 
 .nav-portfolio-link {
   font-weight: 500;
@@ -260,6 +399,13 @@ address {
 
 .list-btn {
   list-style: none;
+  display: flex;
+  outline: 1px solid blue ;
+  margin-top: 94px;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: 512px;
+  
 }
 
 .list-btn-item {
@@ -272,6 +418,7 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
+  
 }
 .btn:hover,
 .btn:focus {
@@ -281,9 +428,17 @@ address {
 
 .portfolio-list {
   list-style: none;
+  padding: 0;
+  margin: 0;
+  outline: 1px solid tomato;
+  display: flex;
+  
+  
 }
 
 .portfolio-list-item {
+  
+
 }
 
 .portfolio-img {
@@ -294,6 +449,7 @@ address {
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
+
 }
 
 .portfolio-product {
