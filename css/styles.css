@@ -246,9 +246,9 @@
 }
 
 .team {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
+  background-color: #f5f4fa;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-title {
@@ -277,8 +277,8 @@
 }
 
 .text-team-card {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-name {
@@ -287,6 +287,7 @@
   line-height: calc(19 / 16);
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 0;
   margin-right: auto;
   margin-bottom: 10px;
   margin-left: auto;
@@ -297,9 +298,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--gray-txt-cl);
-  margin-top: 10px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0;
 }
 
 /* footer */
@@ -388,6 +387,10 @@ address {
   text-align: center;
   letter-spacing: 0.03em;
   background-color: #f5f4fa;
+  padding: 4px;
+  border-radius: 4px;
+  border: none;
+
 }
 
 .btn:hover,
@@ -412,6 +415,10 @@ address {
 }
 
 .text-portfolio-card {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
   border-bottom: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
@@ -422,17 +429,13 @@ address {
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
-  margin-top: 20px;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin: 0;
+  margin-bottom: 4px;
 }
 
 .portfolio-product {
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--gray-txt-cl);
-  margin-top: 4px;
-  margin-bottom: 20px;
-  margin-left: 24px;
-  margin-right: 20px;
+ margin: 0;
 }
